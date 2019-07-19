@@ -10,13 +10,22 @@
 //themes
 .nav(){
     text-decoration: none;
-        color:@riverbend;
+        color:@river-bend;
         font-size: 1.5rem;
 }
 
-.btn(@back:@riverbend, @font:#fff){
+.button(@back:@river-bend, @font:#fff){
     background-color: @back;
     color:@font;
     border-radius:4px;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    padding:5px 25px;
+    width:fit-content;
+}
+
+//Mobile
+.center(){
+    display:block;
+    max-width:500px;
+    width:100%;
 }
