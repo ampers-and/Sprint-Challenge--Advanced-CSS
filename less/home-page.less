@@ -58,6 +58,10 @@
       }
 
       .btn {
+        .btn();
+        &:hover{
+          .btn(#fff,@riverbend);
+        }
       }
     }
 
@@ -75,12 +79,11 @@
 }// home
 
 .top{
-  background: #f4f4f4;
-  width:100%;
-  display:flex;
+  .disp();
+  background: @wild-sand;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
+  border-bottom: 1px solid @seashell;
   h1{
     font-size:4rem;
     padding-top:2%;

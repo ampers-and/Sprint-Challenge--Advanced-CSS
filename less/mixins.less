@@ -1,1 +1,22 @@
 // Mixins Here
+
+//display
+.disp(){
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+//themes
+.nav(){
+    text-decoration: none;
+        color:@riverbend;
+        font-size: 1.5rem;
+}
+
+.btn(@back:@riverbend, @font:#fff){
+    background-color: @back;
+    color:@font;
+    border-radius:4px;
+    font-size: 1.5rem;
+}
